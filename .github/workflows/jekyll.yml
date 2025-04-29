@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schreib-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Willkommen in der Schreib-App!</h1>
+    
+    <textarea id="textInput" rows="10" cols="30" placeholder="Schreibe hier..."></textarea><br>
+    <button id="saveButton">Speichern</button>
+    
+    <p id="savedText">Gespeicherter Text: </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
